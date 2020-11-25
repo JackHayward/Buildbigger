@@ -1,0 +1,25 @@
+Nov 25, 2020 4:52:15 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/jackhayward/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+2020-11-25 16:52:15.658:INFO::main: Logging initialized @774ms to org.eclipse.jetty.util.log.StdErrLog
+2020-11-25 16:52:15.732:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Nov 25, 2020 4:52:16 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend) is not equal to your 
+web application root (/Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2020-11-25 16:52:16.111:INFO:oejs.Server:main: jetty-9.4.34.v20201102; built: 2020-11-02T14:15:39.302Z; git: e46af88704a893fc12cb0e3bf46e2c7b48a009e7; jvm 1.8.0_242-release-1644-b3-6222593
+2020-11-25 16:52:16.487:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@d2de489{/,file:///Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend/,AVAILABLE}{/Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend}
+2020-11-25 16:52:16.487:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2020-11-25 16:52:16.487:INFO:oejs.session:main: node0 Scavenging disabled
+2020-11-25 16:52:16.496:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@520a3426{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-11-25 16:52:16.501:INFO:oejs.Server:main: Started @1617ms
+Nov 25, 2020 4:52:16 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Nov 25, 2020 4:52:16 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Nov 25, 2020 4:52:16 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Nov 25, 2020 4:52:23 PM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
+Nov 25, 2020 4:52:23 PM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico

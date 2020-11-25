@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="FinalProject.AndroidJokeLibrary" target="1.8" />
       <module name="FinalProject.app" target="1.8" />
+      <module name="FinalProject.backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

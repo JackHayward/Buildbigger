@@ -43,10 +43,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        jokeService jokeService = new jokeService();
-
-        Intent jokeIntent = new Intent(this, JokeActivity.class);
-        jokeIntent.putExtra(JOKE_KEY, jokeService.getJoke());
-        startActivity(jokeIntent);
+        new JokeEndpointService().execute(this);
     }
 }

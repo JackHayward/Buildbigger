@@ -1,1 +1,2 @@
+include ':AndroidJokeLibrary'
 include ':app', ':backend', ':javaJokes'

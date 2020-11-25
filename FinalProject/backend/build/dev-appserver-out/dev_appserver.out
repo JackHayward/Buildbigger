@@ -22,9 +22,10 @@ java.io.IOException: Failed to bind to localhost/127.0.0.1:8080
 	at com.google.appengine.tools.development.DevAppServerMain.main(DevAppServerMain.java:248)
 Caused by: java.net.BindException: Address already in use
 	at sun.nio.ch.Net.bind0(Native Method)
-	at sun.nio.ch.Net.bind(Net.java:433)
-	at sun.nio.ch.Net.bind(Net.java:425)
-	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
-	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
-	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:345)
-	... 16 more
+	at sun.nio.ch.Net.bi2020-11-25 18:52:18.989:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@520a3426{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-11-25 18:52:18.992:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@5a7fe64f{/,file:///Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend/,STOPPED}{/Users/jackhayward/AndroidStudioProjects/Build_It_Bigger/FinalProject/backend/build/exploded-backend}
+Nov 25, 2020 6:52:18 PM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
+Nov 25, 2020 6:52:18 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
